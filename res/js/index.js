@@ -15,6 +15,14 @@ $("#btn_teste_2").on("click", outro,
     }
 );
 
+$("#btn_teste_3").on("click",  
+    function(){
+        console.log("botao 3...");
+    }
+);
+
+$( "#accordion" ).accordion();
+
 function alerta(){
     alert('teste!');
 }
